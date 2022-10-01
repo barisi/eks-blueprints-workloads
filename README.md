@@ -26,7 +26,7 @@ Now we can onboard the applications into our cluster:
 argocd app create dev-apps \
     --dest-namespace argocd  \
     --dest-server https://kubernetes.default.svc  \
-    --repo https://github.com/aws-samples/eks-blueprints-workloads.git \
+    --repo https://github.com/barisi/eks-blueprints-workloads.git \
     --path "multi-repo/argo-app-of-apps/dev"
 ```
 
@@ -44,7 +44,7 @@ To bootstrap an EKS cluster with the configuration that is contained in this rep
 argocd app create dev-apps \
     --dest-namespace argocd  \
     --dest-server https://kubernetes.default.svc  \
-    --repo https://github.com/aws-samples/eks-blueprints-workloads.git \
+    --repo https://github.com/barisi/eks-blueprints-workloads.git \
     --path "envs/dev"
 ```
 
