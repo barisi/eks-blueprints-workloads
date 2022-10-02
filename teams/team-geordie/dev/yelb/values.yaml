@@ -4,3 +4,5 @@ spec:
   source:
     repoURL: https://github.com/barisi/eks-blueprints-workloads
     targetRevision: main
+  ingress:
+    host: example.com
